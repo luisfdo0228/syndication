@@ -1,0 +1,13 @@
+/* todo: delete file if not needed */
+.gris, .rojo, .verde {
+    position: absolute;
+}
+.gris {
+    z-index: 2;
+}
+.verde {
+    z-index: 3;
+}
+.azul {
+    z-index: 100; // Sin efecto, es un elemento no-posicionado.
+}
